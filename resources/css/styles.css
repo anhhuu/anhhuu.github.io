@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 2px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+}
+
+.textview, 
+.equalview{
+    width: 206px;
+    border: none;
+    background: #b0d4ea;
+    font-size: 20px;
+    margin: 1px;
+    margin-left: 4px;
+    padding: 6px;
+}
+
+.textview{
+    height: 30px;
+}
+
+.equalview{
+    height: 20px;
+    text-align-last: right;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bg
+{
+    background: linear-gradient(to right, #8fa031, #0062ff);
+    height: 100vh;
+}
